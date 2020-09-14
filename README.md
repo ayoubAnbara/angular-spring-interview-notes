@@ -17,7 +17,7 @@ You can configure your routes to lazy load modules, which means that Angular onl
 
 unsubscribe observable ==> onDestroy
 
-NgInx is a very powerful web server used for creating server blocks and web hosting.
+NgInx serveur front, il faut copier notre packaging dans cette serveur (www/html/) .
 
 ## spring
 swagger: specification qui permet de definir la documentation d'un api  https://swagger.io/
