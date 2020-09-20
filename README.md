@@ -39,7 +39,7 @@ class ServiceA{
  }
  export class A{} 
 ```
-we can injection in pipe, directive
+we can use injection in pipe, directive
 
 du moment on import un module A dans un autre module B, les dependences de module A seront disponible
 dans module B.
