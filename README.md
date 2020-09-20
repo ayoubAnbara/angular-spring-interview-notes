@@ -30,6 +30,8 @@ class ServiceA{
 ```
 @Component +- extends @injactable
 
+du moment on import un module A dans un autre module B, les dependences de module A seront disponible
+dans module B.
 
 ## spring
 swagger: specification qui permet de definir la documentation d'un api  https://swagger.io/
