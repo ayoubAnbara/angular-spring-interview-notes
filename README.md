@@ -20,6 +20,10 @@ unsubscribe observable ==> onDestroy
 NgInx serveur front, il faut copier notre packaging dans cette serveur (www/html/).
 
 ### notes NgMorocco  https://www.youtube.com/watch?v=q-VUkCtp_Ck&ab_channel=NgMorocco
+
+Lazy-loading:
+```loadChildreen:() => import('./items.module').then(m => m.XModule)``` ==> import dynamique d'un module X
+
 @Injectable(): Decorator that marks a class as available to be injected as a dependency. 
 ex:
 ```
