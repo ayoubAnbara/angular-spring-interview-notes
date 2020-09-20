@@ -21,6 +21,13 @@ NgInx serveur front, il faut copier notre packaging dans cette serveur (www/html
 
 ### notes NgMorocco  https://www.youtube.com/watch?v=q-VUkCtp_Ck&ab_channel=NgMorocco
 @Injectable(): Decorator that marks a class as available to be injected as a dependency. 
+ex:
+```
+@Injectable   // Please inject serviceB 
+class ServiceA{
+   constructor(private serviceB :ServiceB){}
+}
+```
 
 ## spring
 swagger: specification qui permet de definir la documentation d'un api  https://swagger.io/
