@@ -23,11 +23,13 @@ NgInx serveur front, il faut copier notre packaging dans cette serveur (www/html
 @Injectable(): Decorator that marks a class as available to be injected as a dependency. 
 ex:
 ```
-@Injectable   // Please inject serviceB 
+@Injectable   // Please Angular inject serviceB 
 class ServiceA{
    constructor(private serviceB :ServiceB){}
 }
 ```
+@Component +- extends @injactable
+
 
 ## spring
 swagger: specification qui permet de definir la documentation d'un api  https://swagger.io/
