@@ -33,6 +33,13 @@ class ServiceA{
 }
 ```
 @Component +- extends @injactable
+``` 
+@Injectable(
+  {providedIn : 'root'}    // you can inject this class in all application
+ }
+ export class A{} 
+```
+
 
 du moment on import un module A dans un autre module B, les dependences de module A seront disponible
 dans module B.
