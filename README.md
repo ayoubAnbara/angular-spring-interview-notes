@@ -46,7 +46,8 @@ dans module B.
 
 parmi les avantages des services: le partage des states (data) entre les components, les services, ...
 ex: AuthenticationService
-
+# Directives:
+tout directive commence par * (*ngIf,...) s'appel une directive structural car il decide l'existence d'un element.
 ## spring
 swagger: specification qui permet de definir la documentation d'un api  https://swagger.io/
 
