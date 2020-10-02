@@ -56,6 +56,8 @@ swagger: specification qui permet de definir la documentation d'un api  https://
 
 la partie de documentation est obligatoire.
 
+- pattern DTO: inputs & outputs d'un controller doivent etre different.
+
 ## docker
 ### notes zakria:
 un conteneur peut necessite une ou plusieurs images docker
