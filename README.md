@@ -51,6 +51,11 @@ tout directive commence par * (*ngIf, *ngFor...) s'appel une directive structura
 
 directive d'attribut: pour modifier l'apparence ou le comportement d'un élément.
 ex: ngStyle, ngClass, 
+# Observable vs Promise:
+https://www.youtube.com/watch?v=O5poq2onluI&ab_channel=NgMorocco
+Promise is Eager but Observable s Lazy.
+
+
 ## spring
 swagger: specification qui permet de definir la documentation d'un api  https://swagger.io/
 
