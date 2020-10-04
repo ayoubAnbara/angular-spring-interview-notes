@@ -54,7 +54,11 @@ ex: ngStyle, ngClass,
 # Observable vs Promise:
 https://www.youtube.com/watch?v=O5poq2onluI&ab_channel=NgMorocco<br>
 Promise is Eager but Observable s Lazy.
-Promise is asynchron
+Promise is asynchron 
+
+Naming conventions for observables: $ suffix is used to indicate that the variable is an Observable.
+
+
 
 
 ## spring
