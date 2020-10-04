@@ -53,7 +53,7 @@ directive d'attribut: pour modifier l'apparence ou le comportement d'un élémen
 ex: ngStyle, ngClass, 
 # Observable vs Promise:
 https://www.youtube.com/watch?v=O5poq2onluI&ab_channel=NgMorocco<br>
-Promise is Eager but Observable s Lazy.
+Promise is Eager but Observable s Lazy (​lazy a la demande).
 Promise is asynchron 
 
 Naming conventions for observables: $ suffix is used to indicate that the variable is an Observable.
