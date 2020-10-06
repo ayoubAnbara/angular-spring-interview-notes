@@ -61,7 +61,7 @@ Naming conventions for observables: $ suffix is used to indicate that the variab
 
 
 
-## spring
+# spring
 swagger: specification qui permet de definir la documentation d'un api  https://swagger.io/
 
 la partie de documentation est obligatoire.
@@ -69,8 +69,8 @@ la partie de documentation est obligatoire.
 - pattern DTO: inputs & outputs d'un controller doivent etre different.
 
 si vous travaillez avec EJB/CDI le serveur d'application sera JEE comme JBoss, webflux,... 
-# la difference entre Servuer web, conteneur web et serveur d'application
-- Servuer web :
+## la difference entre serveur web, conteneur web et serveur d'application
+- Serveur web :
 est un serveur http comme apache son role: il recoit et envoye des requettes http, il fait pas des traitements, si une requette http demande un traitement il fait appel a un script php par ex d'executer.
 - Conteneur Web : 
 Serveur web + moteur qui va execute du code cote serveur  
