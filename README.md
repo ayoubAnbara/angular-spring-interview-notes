@@ -68,6 +68,15 @@ la partie de documentation est obligatoire.
 
 - pattern DTO: inputs & outputs d'un controller doivent etre different.
 
+si vous travaillez avec EJB/CDI le serveur d'application sera JEE comme JBoss, webflux,... 
+
+# Servuer web :
+est un serveur http comme apache son role: il recoit et envoye des requettes http, il fait pas des traitements, si une requette http demande un traitement il fait appel a un script php par ex d'executer.
+# Conteneur Web : 
+Servuer web + moteur de servlet 
+ex: tomcat, apache+php
+Serveur d'application
+
 ## docker
 ### notes zakria:
 un conteneur peut necessite une ou plusieurs images docker
