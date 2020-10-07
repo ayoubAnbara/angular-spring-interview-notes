@@ -84,13 +84,18 @@ https://www.youtube.com/watch?v=nf1vwRpHNW0&list=PLGTrAf5-F1YLNgq_0TXd9Xu245dJxq
 ## undirectional vs bidirectional
 database only has bidirectional association, but OO has undirectional and bidirectional association.
 
-                | undirectional | bidirectional  |
+|               | undirectional | bidirectional  |
 | ------------- |:-------------:| --------------:|
 | OneToOne      | v             |    v           |
 | OneToMany     | v             |  x             |
 | ManyToMany    | are neat      |    $1          |
 
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ## docker
 ### notes zakria:
