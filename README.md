@@ -83,6 +83,7 @@ https://www.youtube.com/watch?v=nf1vwRpHNW0&list=PLGTrAf5-F1YLNgq_0TXd9Xu245dJxq
 
 ## undirectional vs bidirectional
 database only has bidirectional association, but OO has undirectional and bidirectional association.
+
                 | undirectional | bidirectional  |
 | ------------- |:-------------:| --------------:|
 | OneToOne      | v             |    v           |
