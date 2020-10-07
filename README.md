@@ -86,9 +86,10 @@ database only has bidirectional association, but OO has undirectional and bidire
 
 |               | undirectional | bidirectional  |
 | ------------- |:-------------:| --------------:|
-| OneToOne      |      ✔        |    v           |
-| OneToMany     | v             |  x             |
-| ManyToMany    | are neat      |    $1          |
+| OneToOne      |      ✔        |      ✔         |
+| OneToMany     |      ✔        |      ✖         |
+| ManyToOne     |      ✔        |      ✔         |
+| ManyToMany    |      ✔        |      ✔         |
 
 
 ## docker
