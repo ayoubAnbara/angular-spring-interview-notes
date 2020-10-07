@@ -78,6 +78,18 @@ ex: tomcat, apache+php
 - Serveur d'application:
 Conteneur Web + framwork qui fait l'inversion de controle             source:https://www.youtube.com/watch?v=xpMGCZw0UBA&t=2460s&ab_channel=mohamedYoussfi
 
+# JPA:
+https://www.youtube.com/watch?v=nf1vwRpHNW0&list=PLGTrAf5-F1YLNgq_0TXd9Xu245dJxqJMr&index=27&ab_channel=MissXing
+
+## undirectional vs bidirectional
+database only has bidirectional association, but OO has undirectional and bidirectional association.
+                | undirectional | bidirectional  |
+| ------------- |:-------------:| --------------:|
+| OneToOne      | v             |    v           |
+| OneToMany     | v             |  x             |
+| ManyToMany    | are neat      |    $1          |
+
+
 
 ## docker
 ### notes zakria:
