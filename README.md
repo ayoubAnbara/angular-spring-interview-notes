@@ -183,7 +183,7 @@ assertEquals(-1, res);
 } 
 ```
 
-Mockito: pour ne pas faire des vrais appels
+Mockito: pour ne pas faire des vrais appels, on va les simulee.
 Mockito est un framework de java
 <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
 <dependency>
