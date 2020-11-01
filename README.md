@@ -160,4 +160,36 @@ permet d executer une commande dans un container demarre
 ex:
 demarrer un container MySQL
 
+### Unit Test
+# JUnit zakaria
+- il faut que le nom du class test se termine par "Test"
+- les noms des methodes de test doivent etre en minuscules - les methodes doivent annotees par @Test
+- les methodes doivent etre public
+- use coverage to know pourcentage la couverture du test
+  for sts, install plugin https://www.eclemma.org/installation.html-Mockito
+-------------------------------------
+```
+/* to test d'un bean spring  */
+JUnit with Spring
+@RunWith(SpringRunner.class)   // donne la main a spring pour run test
+@SpringBootTest                // to use Autowired  
+public class SubstractionServiceTest {
+@Autowired
+SubstractionService subService ;
+@Test
+public void when_call_substraction_with_unnormal_case() {
+int res= subService.substraction(2, 4);
+assertEquals(-1, res);
+} 
+```
+
+Mockito: pour ne pas faire des vrais appels
+Mockito est un framework de java
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <scope>test</scope>
+</dependency>
+
 
