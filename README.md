@@ -185,6 +185,8 @@ assertEquals(-1, res);
 
 Mockito: pour ne pas faire des vrais appels, on va les simulee.
 Mockito est un framework de java
+To use Mockito:
+1-
 ```
 <dependency>
     <groupId>org.mockito</groupId>
@@ -192,4 +194,6 @@ Mockito est un framework de java
     <scope>test</scope>
 </dependency>
 ```
+2- remplace @RunWith(SpringRunner.class) with @RunWith(MockitoJUnitRunner.class) from org.mockito.junit.MockitoJUnitRunner;
+3- can't use @Autowired with Mockito, je dois mocket les services with @Mock
 
