@@ -205,3 +205,5 @@ To use Mockito:
 ```
 5- on doit mocke les methodes des services annotee par @Mock inside test method, par ex:
 ```Mockito.when(sumService.sum(15, 2)).thenReturn(17);```
+### Mock un controller
+1- on utilise l'object MockMvc du package org.springframework.test.web.servlet.MockMvc
