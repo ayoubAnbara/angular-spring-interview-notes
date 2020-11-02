@@ -195,5 +195,13 @@ To use Mockito:
 </dependency>
 ```
 2- remplace @RunWith(SpringRunner.class) with @RunWith(MockitoJUnitRunner.class) from org.mockito.junit.MockitoJUnitRunner;
-3- can't use @Autowired with Mockito, je dois mocket les services with @Mock
-
+3- can't use @Autowired with Mockito,so for the services using by service target(test), je dois mocket les services with @Mock, et inject elle dans mon service target with @InjectMocks
+4- on doit initialise de tout ce qui est mock
+```
+   @Before
+	public void conf() {
+		MockitoAnnotations.initMocks(this);
+	}
+```
+5- on doit mocke les methodes des services annotee par @Mock inside test method, par ex:
+```Mockito.when(sumService.sum(15, 2)).thenReturn(17);```
