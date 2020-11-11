@@ -201,7 +201,7 @@ To use Mockito:
 4- on doit initialise de tout ce qui est mock
 ```
    @Before
-	public void conf() {
+	public void setup() {
 		MockitoAnnotations.initMocks(this);
 	}
 ```
@@ -211,3 +211,26 @@ To use Mockito:
 
 ### Mock un controller
 1- on utilise l'object MockMvc du package org.springframework.test.web.servlet.MockMvc
+
+2-      ```
+         MockMvc mockMvc;
+	 HelloController controller;
+        @Before
+	public void setup() {
+		MockitoAnnotations.initMocks(this);
+		controller=new HelloController();
+		mockMvc=MockMvcBuilders.standaloneSetup(controller).build();
+	}
+	
+	@Test
+	public void check_say_hello() throws Exception {
+		mockMvc.perform(
+				MockMvcRequestBuilders.get("/sayHello")
+				.accept(MediaType.APPLICATION_JSON)
+				.contentType(MediaType.APPLICATION_JSON)			
+				).andExpect(status().is(200))
+		                 .andExpect(jsonPath("$.message").value("hello"));
+		
+	//	assertTrue("verification say hello", controller.sayHello().equals("hello"));
+	}
+```
