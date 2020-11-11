@@ -232,5 +232,6 @@ To use Mockito:
 		                 .andExpect(jsonPath("$.message").value("hello"));
 		
 	//	assertTrue("verification say hello", controller.sayHello().equals("hello"));
-	}
-```
+	}```
+	
+reference: https://www.youtube.com/watch?v=b_ei584dYJ4&t=1105s&ab_channel=LaurentiuSpilca	
