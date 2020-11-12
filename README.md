@@ -235,5 +235,8 @@ To use Mockito:
 	}```
 	
 reference: https://github.com/ayoub96anbara/junit-demo
-
-          https://www.youtube.com/watch?v=b_ei584dYJ4&t=1105s&ab_channel=LaurentiuSpilca	
+ https://www.youtube.com/watch?v=b_ei584dYJ4&t=1105s&ab_channel=LaurentiuSpilca
+	  
+questions:
+1- how to test test mehthod mapping DTO?
+2- can we use more than one assertXYZ() method in method test?
