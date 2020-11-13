@@ -213,8 +213,11 @@ To use Mockito:
 1- on utilise l'object MockMvc du package org.springframework.test.web.servlet.MockMvc
 
 2-      ```
+
          MockMvc mockMvc;
+	 
 	 HelloController controller;
+	 
         @Before
 	public void setup() {
 		MockitoAnnotations.initMocks(this);
@@ -232,9 +235,11 @@ To use Mockito:
 		                 .andExpect(jsonPath("$.message").value("hello"));
 		
 	//	assertTrue("verification say hello", controller.sayHello().equals("hello"));
-	}```
+	}
+	```
 	
 reference: https://github.com/ayoub96anbara/junit-demo
+
  https://www.youtube.com/watch?v=b_ei584dYJ4&t=1105s&ab_channel=LaurentiuSpilca
 	  
 questions:
