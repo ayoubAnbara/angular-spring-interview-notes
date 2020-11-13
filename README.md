@@ -210,7 +210,7 @@ To use Mockito:
 ```Mockito.when(sumService.sum(15, 2)).thenReturn(17);```
 
 ### Mock un controller
-1- on utilise l'object MockMvc du package org.springframework.test.web.servlet.MockMvc
+1- on utilise l'object MockMvc du package org.springframework.test.web.servlet.MockMvc pour faire des appels Http,
 
 2-      ```
 
