@@ -245,3 +245,4 @@ reference: https://github.com/ayoub96anbara/junit-demo
 questions:
 1- how to test test mehthod mapping DTO?
 2- can we use more than one assertXYZ() method in method test?
+3- should test cases cover Success and Failed Scenarios ?
